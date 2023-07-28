@@ -1,5 +1,22 @@
 :root {
-  --cor-primaria: #000000;
+  --color-01: #F7F7F7;
+  --color-02: #EDEDED;
+  --color-03: #DEDEDE;
+  --color-04: #CCCCCC;
+  --color-05: #B2B2B2;
+  --color-06: #9C9C9C;
+  --color-07: #717171;
+  --color-08: #595959;
+  --color-09: #404040;
+  --color-10: #2E2E2E;
+  --color-11: #111111;
+  --color-12: #000000;
+  --p-01: #FFBB00;
+  --p-02: #E4A30B;
+  --p-03: #A66F00;
+  --p-04: #664400;
+  --p-05: #332200;
+  --color-white: #FFFFFF;
 }
 
 * {
@@ -14,6 +31,7 @@ html {
 
 body {
   font-size: 1.6rem;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 ol, ul {
@@ -22,4 +40,74 @@ ol, ul {
 
 a {
   text-decoration: none;
+}
+
+.header-bg {
+  background: var(--color-12);
+}
+
+.header-bg .header {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2rem;
+  margin: 0 auto;
+  max-width: 120rem;
+}
+
+.header .header-menu {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4rem;
+}
+
+.header .header-menu a {
+  display: inline-block;
+  padding: 1.6rem 0;
+  color: var(--color-white);
+  position: relative;
+}
+
+.header .header-menu a::after {
+  content: '';
+  display: block;
+  height: .2rem;
+  width: 0;
+  background: var(--color-white);
+  margin-top: .4rem;
+  transition: .3s;
+  position: absolute;
+}
+
+.header .header-menu a:hover:after{
+  width: 100%;
+}
+
+@media (max-width: 800px) {
+  .header .header-menu {
+    gap: 2rem;
+  }
+  .header .header-menu a {
+    background: var(--color-11);
+    padding: 1.2rem 1.6rem;
+    border-radius: .4rem;
+  }
+  .header .header-menu a:hover {
+    background: var(--color-10);
+  }
+  .header .header-menu a::after {
+    display: none;
+  }
+}
+
+@media (max-width: 600px) {
+  .header .header-menu {
+    gap: 1.2rem;
+  }
+  .header .header-menu a {
+    padding: .8rem 1.2rem;
+    font-size: 1.4rem;
+  }
 }
