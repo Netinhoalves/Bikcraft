@@ -1,10 +1,13 @@
-# Bikcraft ([Click Here](https://netinhoalves.github.io/Bikcraft/))
+# Bikcraft ([Click Here](https://bikcraft-netinhoalves.vercel.app/))
 
-![Design preview for landing page challenge](./img/preview-desktop.png)
+![Preview](./img/preview-desktop.png)
 
 ## SOBRE ESTE PROJETO!
 
-Este é um desafio proposto pelo professor [André Rafael](https://www.youtube.com/origamid) no final do curso "HTML e CSS para Iniciantes", onde aprendi muito sobre e consegui implementar, não só neste desafio, mas como em meus projetos pessoais. Este desafio é resultado de tudo que aprendi em aula.
+Bikcraft é um projeto desenvolvido como um desafio proposto pelo [André Rafael](https://www.youtube.com/origamid), no final do curso ["HTML e CSS para Iniciantes"](https://www.origamid.com/curso/html-e-css-para-iniciantes/). Durante o curso, aprendi muito sobre tecnologias web e pude aplicar esses conhecimentos em outros projetos.
+
+## Objetivo
+O objetivo do projeto é criar um website para uma empresa fictícia de fabricação e venda de bicicletas personalizadas e artesanais.
 
 ## Tecnologias usadas
 
@@ -17,4 +20,4 @@ Este é um desafio proposto pelo professor [André Rafael](https://www.youtube.c
 
 ## Acessar minha resolução
 
-   Eu hospedei este desafio com a ajuda do GitHub Pages, para acessar minha resolução deste desafio [Clique Aqui](https://netinhoalves.github.io/Bikcraft/)
+   Eu hospedei este desafio com a ajuda da [Vercel](https://vercel.com/), para acessar minha resolução deste desafio [Clique Aqui](https://bikcraft-netinhoalves.vercel.app/)
