@@ -1,3 +1,10 @@
+.container {
+  max-width: 120rem;
+  margin: 0 auto;
+  padding-right: 2rem;
+  padding-left: 2rem;
+}
+
 .botao{
   display: inline-block;
   padding: 1.6rem 3.2rem;
