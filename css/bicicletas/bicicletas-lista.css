@@ -1,5 +1,6 @@
 .bicicletas-lista {
-  padding: 6rem 0 12rem 0;
+  padding-top: 6rem;
+  padding-bottom: 12rem;
 }
 
 .bicicletas-lista h2 {
@@ -16,8 +17,8 @@
 }
 
 .bicicletas-lista li {
+  flex: 1;
   min-width: 28rem;
-
 }
 
 .bicicletas-lista a {
@@ -32,7 +33,6 @@
   margin-bottom: .8rem;
   display: flex;
   align-items: center;
-  gap: .8rem;
 }
 
 .bicicletas-lista h3::before {
@@ -40,6 +40,7 @@
   display: inline-block;
   height: .8rem;
   width: 1.2rem;
+  gap: .8rem;
   background-color: var(--color-p1);
   transition: width .2s;
 }
