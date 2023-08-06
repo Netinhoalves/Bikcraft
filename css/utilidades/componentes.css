@@ -33,6 +33,25 @@
   background: var(--color-09);
 }
 
+.botao.seta {
+  display: flex;
+  align-items: center;
+}
+
+.botao.seta::after {
+  content: '';
+  display: inline-block;
+  width: 1.8rem;
+  height: 1rem;
+  margin-left: 1.2rem;
+  background: url(../../img/icones/seta.svg);
+  transition: transform .3s;
+}
+
+.botao.seta:hover::after {
+  transform: translateX(.4rem);
+}
+
 @media (max-width: 600px) {
   .botao{
     padding: 1.2rem 1.6rem;
@@ -71,6 +90,10 @@
 }
 
 @media (max-width: 800px) {
+  .titulo-bg {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+  }
   .titulo {
     padding-top: 4rem;
     padding-bottom: 4rem;
@@ -79,5 +102,12 @@
     font-size: 1.6rem;
     text-transform: lowercase;
     font-weight: 400;
+  }
+}
+
+@media (max-width: 600px) {
+  .titulo-bg {
+    padding-top: 0;
+    padding-bottom: 0;
   }
 }
