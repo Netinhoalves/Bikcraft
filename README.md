@@ -1,6 +1,6 @@
 # Bikcraft ([Click Here](https://bikcraft-netinhoalves.vercel.app/))
 
-![Preview](./img/preview-desktop.png)
+![Preview](./img/preview//preview-desktop.png)
 
 ## SOBRE ESTE PROJETO!
 

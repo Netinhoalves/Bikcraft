@@ -55,10 +55,13 @@
   padding-left: 2rem;
   padding-top: 1.6rem;
   max-width: 80ch;
+}
+
+.js .perguntas dd {
   display: none;
 }
 
-.perguntas dd.ativa {
+.js .perguntas dd.ativa {
   display: block;
 }
 
